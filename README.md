@@ -19,6 +19,7 @@ As this is a classification problem, 5 Machine Learning Algoriths were applied :
 Random Forest Classifier achieved the best performance among all models, with an accuracy of 0.9999, a precision of 0.9998, a recall of 1.0, an f1-score of 0.9999 after using oversampling technique to balance the imbalanced dataset.
 
 This project demonstrates how machine learning can be used to detect and prevent credit card fraud, which is a critical and costly issue for both consumers and businesses. However, this project also has some limitations, such as:
+
   o	The dataset used is from 2013, which may not reflect the current trends and patterns of credit card fraud
 
   o	The dataset used from Europe, which may not generalize to other regions or countries
