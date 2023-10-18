@@ -4,6 +4,8 @@ A credit card is one of the most used financial products to make online purchase
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. 
 Detecting fraudulent transactions is challenging due to the high volume and variety of transactions, the imbalance between fraud and non-fraud cases, and the adaptive nature of fraudsters.
 
+[Download the dataset](https://kh3-ls-storage.s3.us-east-1.amazonaws.com/DS%20Project%20Guide%20Data%20Set/creditcard.csv) that will be used for this project
+
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
 The dataset has 31 features, 28 of which are numerical and have been transformed using principal component analysis (PCA) for confidentiality purpose. The features that were not transformed are Time (the seconds elapsed between each transaction and the first transaction in the dataset) and Amount (the transaction amount). The target variable is Class, which is 1 for fraudulent transactions and 0 for non-fraudulent transactions.
